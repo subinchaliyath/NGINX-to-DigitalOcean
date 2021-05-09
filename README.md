@@ -84,6 +84,7 @@ sudo bash nodesource_setup.sh
 sudo apt install nodejs
 node -v
 
+```
 
 ## 6. Clone your project from Github
 There are a few ways to get your files on to the server, I would suggest using Git
@@ -96,14 +97,10 @@ git clone yourproject.git
 cd yourproject
 npm install
 npm start (or whatever your start command)
-# stop app
-ctrl+C
 ```
 
 ```
 sudo nano /etc/nginx/sites-available/subinchaliyath.me
-
-
 ```
 ## 9. Setup PM2 process manager to keep your app running
 ```
