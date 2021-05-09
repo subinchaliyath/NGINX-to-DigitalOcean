@@ -21,12 +21,14 @@ ufw status
 rsync --archive --chown=subin:subin ~/.ssh /home/subin
 ```
 ## 3. Login as user and installing NGINX
+```
 ssh subin@ip
 sudo apt update
 sudo apt install nginx
 sudo ufw app list
 sudo ufw allow 'Nginx HTTP'
 sudo ufw status
+```
 
 ## 3. Pointing Domain to static file
 ```
