@@ -111,7 +111,7 @@ pm2 start app (or whatever your file name)
 # To make sure app starts when reboot
 pm2 startup ubuntu
 ```
-
+```
 server {
 ...
     location /subin {
@@ -125,7 +125,7 @@ server {
 ...
 }
 
-
+````
 sudo nginx -t
 sudo systemctl restart nginx
 
