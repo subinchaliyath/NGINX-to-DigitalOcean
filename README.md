@@ -58,7 +58,7 @@ server {
 }
 ```
 ```
-sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/subinchaliyath.me /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl restart nginx
 ```
@@ -70,7 +70,7 @@ sudo apt install certbot python3-certbot-nginx
 sudo ufw status
 sudo ufw allow 'Nginx Full'
 sudo ufw delete allow 'Nginx HTTP'
-sudo certbot --nginx -d subinchaliyath.me-d www.subinchaliyath.me
+sudo certbot --nginx -d subinchaliyath.me -d www.subinchaliyath.me
 sudo certbot renew --dry-run
 
 ```
