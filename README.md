@@ -33,9 +33,9 @@ sudo ufw status
 ## 3. Pointing Domain to static file
 ```
 sudo mkdir -p /var/www/subinchaliyath.me/html
-sudo chown -R $USER:$USER /var/www/your_domain/html
-sudo chmod -R 755 /var/www/your_domain
-cd /var/www/your_domain/html
+sudo chown -R $USER:$USER /var/www/subinchaliyath.me/html
+sudo chmod -R 755 /var/www/subinchaliyath.me
+cd /var/www/subinchaliyath.me/html
 ```
 clone your project (index. html should be here
 
